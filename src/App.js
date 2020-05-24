@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import HeaderComponent from './HeaderComponent';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HeaderComponent />
     </div>
+    
+    // <div className="Fruits">
+    //   <ul>
+    //     <li>Mango</li>
+    //     <li>Guava</li>
+    //     <li>Litchi</li>
+    //     </ul>
+    // </div>
+    //  return(<div className="priority"><h1>Swati</h1>
+    //  <p>I am a girl</p>
+    //  <ol><li>Goa</li>
+    //  <li>Manali</li>
+    //  <li>Coorg</li>
+    //  </ol>
+    //  <ul>
+    //  <li>Switzerland</li>
+    //  <li>France</li>
+    //  <li>Vietnam</li>
+    //  </ul></div>)
   );
 }
 
